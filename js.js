@@ -1,4 +1,4 @@
-let desejaApagaMemoria = confirm("DESEJA APAGA A MEMORIA");
+let desejaApagaMemoria = confirm("DESEJA APAGAR A SUA MEMÓRIA");
 let contagem = 1;
 let contagemaFuncao = 1;
 let mensagem = "Iniciando...";
