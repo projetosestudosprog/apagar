@@ -13,7 +13,7 @@ body {
 .apagadas {
   text-align: center;
   color: #fff;
-  animation: moverPraBaixoTexto alternate 4s ;
+  animation: moverPraBaixoTexto  4s infinite;
   
 }
 
