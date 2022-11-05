@@ -7,9 +7,23 @@
 
 body {
   background-color: rgb(3, 3, 3);
+  min-height: 100vh;
 }
 
 .apagadas {
   text-align: center;
   color: #fff;
+  animation: moverPraBaixoTexto alternate 4s ;
+  
+}
+
+
+@keyframes moverPraBaixoTexto {
+    to {
+        transform: translateY(100vh);
+    }
+    from {
+        transform: translateY(0vh);
+
+    }
 }
